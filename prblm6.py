@@ -15,7 +15,7 @@ for i in s:
         low=1
     elif(i.isnumeric()):
         num=1
-    elif(i=='@' or i=='#' or i=="!"):
+    elif(i.isascii()) :
          sp=1
     else:
         continue
